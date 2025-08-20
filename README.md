@@ -5,21 +5,7 @@ Bacterial Blight, Blast Disease, Brown Spot, and False Smut.
 * Wheat Dataset → For wheat, the app classifies yellow rust–affected leaves into different resistance/severity levels (0, MR, MRMS, MS, R, S).
 
 Datasets
-agrovision_app/
-        └── sample_images/
-            ├── Rice_Diseases/
-            │   ├── Bacterial Blight Disease/
-            │   ├── Blast Disease/
-            │   ├── Brown Spot Disease/
-            │   └── False Smut Disease/
-            │
-            └── YELLOW-RUST-19/
-                ├── 0/
-                ├── MR/
-                ├── MRMS/
-                ├── MS/
-                ├── R/
-                └── S/
+<img width="399" height="372" alt="image" src="https://github.com/user-attachments/assets/10c5d26d-cbd7-4efb-ae09-069504ffc55f" />
 
 The models are trained using the following public datasets:
 
@@ -94,3 +80,4 @@ Option B: Use an API (Groq, OpenAI, etc.)
 
         OPENAI_API_KEY=your_key_here
         GROQ_API_KEY=your_key_here
+
