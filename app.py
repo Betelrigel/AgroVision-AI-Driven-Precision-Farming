@@ -63,7 +63,7 @@ def show_weather_tips():
     st.markdown("### 🌤️ Weather-Based Farming Tips")
     st.markdown("Get farming advice based on current weather conditions in Hamirpur")
     
-    API_KEY = 'b11a4b41404cc2571a14597947f4c816'
+    API_KEY = 'your api key here'
 
     @st.cache_data(ttl=3600)
     def get_weather_data():
@@ -193,4 +193,5 @@ def main():
         show_yield_prediction()
 
 if __name__ == "__main__":
+
     main()
