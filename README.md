@@ -81,3 +81,4 @@ Option B: Use an API (Groq, OpenAI, etc.)
         OPENAI_API_KEY=your_key_here
         GROQ_API_KEY=your_key_here
 
+
