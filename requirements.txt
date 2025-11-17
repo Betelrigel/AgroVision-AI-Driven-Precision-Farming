@@ -1,0 +1,22 @@
+streamlit==1.28.0
+opencv-python==4.8.0.74
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.3.2
+joblib>=1.3.0
+Pillow==10.0.0
+matplotlib==3.7.2
+requests==2.31.0
+
+# PyTorch and torchvision are required for disease detection (wheat model uses PyTorch)
+# On Windows and many setups you should install CPU builds via the PyTorch wheel index.
+# Use the following command to install compatible CPU-only wheels:
+# pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+
+# If you prefer to include torch in the requirements file and allow pip to install
+# it directly (may work for many setups), add these lines instead of the comments above:
+# torch>=2.2.0
+# torchvision>=0.19.0
+
+# Load environment variables from a `.env` file (optional helper)
+python-dotenv==1.0.0

@@ -1,0 +1,6 @@
+# Ignore local environment variable files
+.env
+
+# Virtual environment
+venv/
+agrovision_env/
